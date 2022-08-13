@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 00:24:07
  * @LastEditTime: 2022-07-17 00:27:25
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Notifications/EmailValidateCodeNotification.php
+ * @FilePath: /exuiApi/app/Notifications/EmailValidateCodeNotification.php
  */
 
 namespace App\Notifications;

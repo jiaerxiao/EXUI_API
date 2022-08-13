@@ -4,7 +4,7 @@
  * @Date: 2022-06-28 22:36:21
  * @LastEditTime: 2022-07-17 22:32:10
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/Controller.php
+ * @FilePath: /exuiApi/app/Http/Controllers/Controller.php
  */
 
 namespace App\Http\Controllers;

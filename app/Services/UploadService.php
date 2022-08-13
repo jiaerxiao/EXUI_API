@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 01:51:12
  * @LastEditTime: 2022-07-17 01:58:28
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Services/UploadService.php
+ * @FilePath: /exuiApi/app/Services/UploadService.php
  */
 
 namespace App\Services;

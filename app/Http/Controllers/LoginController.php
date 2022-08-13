@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-07-16 17:40:45
- * @LastEditTime: 2022-07-23 15:25:01
+ * @LastEditTime: 2022-08-05 16:29:50
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/LoginController.php
+ * @FilePath: /exuiApi/app/Http/Controllers/LoginController.php
  */
 
 namespace App\Http\Controllers;
@@ -21,9 +21,10 @@ class LoginController extends Controller
     {
 
         $user = User::where(filter_var(request('account'), FILTER_VALIDATE_EMAIL) ? 'email' : 'mobile', $request->account)->first();
-        return [
+        $data = [
             'user' => new UserResource($user),
             'token' => $user->createToken('auth')->plainTextToken
         ];
+        return $this->success('登录成功', $data);
     }
 }

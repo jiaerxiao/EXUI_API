@@ -4,7 +4,7 @@
  * @Date: 2022-06-28 22:36:21
  * @LastEditTime: 2022-07-17 20:51:43
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/tests/TestCase.php
+ * @FilePath: /exuiApi/tests/TestCase.php
  */
 
 namespace Tests;

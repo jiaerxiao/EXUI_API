@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 12:22:12
  * @LastEditTime: 2022-07-24 21:21:48
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Models/Config.php
+ * @FilePath: /exuiApi/app/Models/Config.php
  */
 
 namespace App\Models;

@@ -4,7 +4,7 @@
  * @Date: 2022-07-14 23:13:40
  * @LastEditTime: 2022-07-14 23:17:22
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/database/seeders/UserSeeder.php
+ * @FilePath: /exuiApi/database/seeders/UserSeeder.php
  */
 
 namespace Database\Seeders;

@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 01:27:16
  * @LastEditTime: 2022-07-17 21:02:28
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/config/system.php
+ * @FilePath: /exuiApi/config/system.php
  */
 return [
     "site_title" => "xxx管理系统",

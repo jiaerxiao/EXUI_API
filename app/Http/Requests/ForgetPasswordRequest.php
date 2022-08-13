@@ -4,7 +4,7 @@
  * @Date: 2022-07-18 00:20:41
  * @LastEditTime: 2022-07-18 00:22:20
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Requests/ForgetPasswordRequest.php
+ * @FilePath: /exuiApi/app/Http/Requests/ForgetPasswordRequest.php
  */
 
 namespace App\Http\Requests;

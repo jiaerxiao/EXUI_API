@@ -4,7 +4,7 @@
  * @Date: 2022-07-18 00:20:08
  * @LastEditTime: 2022-07-20 21:12:55
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/ForgetPasswordController.php
+ * @FilePath: /exuiApi/app/Http/Controllers/ForgetPasswordController.php
  */
 
 namespace App\Http\Controllers;

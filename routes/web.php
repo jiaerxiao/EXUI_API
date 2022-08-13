@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-06-28 22:36:21
- * @LastEditTime: 2022-07-24 22:20:31
+ * @LastEditTime: 2022-08-08 23:22:17
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/routes/web.php
+ * @FilePath: /exuiApi/routes/web.php
  */
 
 use App\Models\Menu;
@@ -24,15 +24,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-
-    $query = Menu::query();
-
-    $query = $query->where('pid', 0);
-
-    $query = $query->with(['children']);
-
-    return $query->get();
+    $info =  \Larva\Ip2Region\Ip2Region::find('112.20.118.178');
+    return ['code' => 0, 'info' => $info];
 });
 
 Route::get('test', function () {

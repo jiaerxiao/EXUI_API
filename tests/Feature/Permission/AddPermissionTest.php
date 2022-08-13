@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 20:46:19
  * @LastEditTime: 2022-07-17 21:23:13
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/tests/Feature/Permission/AddPermissionTest.php
+ * @FilePath: /exuiApi/tests/Feature/Permission/AddPermissionTest.php
  */
 
 namespace Tests\Feature\Permission;

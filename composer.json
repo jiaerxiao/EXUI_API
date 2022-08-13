@@ -15,6 +15,7 @@
     "laravel/sanctum": "^2.14.1",
     "laravel/telescope": "^4.9",
     "laravel/tinker": "^2.7",
+    "larva/laravel-ip2region": "^1.0",
     "mews/captcha": "^3.2",
     "nwidart/laravel-modules": "^9.0",
     "overtrue/easy-sms": "^2.1",
@@ -64,7 +65,9 @@
   },
   "extra": {
     "laravel": {
-      "dont-discover": []
+      "dont-discover": [
+        "laravel/telescope"
+      ]
     }
   },
   "config": {

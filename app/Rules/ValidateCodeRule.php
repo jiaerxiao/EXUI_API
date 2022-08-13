@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 11:28:11
  * @LastEditTime: 2022-07-17 20:35:19
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Rules/ValidateCodeRule.php
+ * @FilePath: /exuiApi/app/Rules/ValidateCodeRule.php
  */
 
 namespace App\Rules;

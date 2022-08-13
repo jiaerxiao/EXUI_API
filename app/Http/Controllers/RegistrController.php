@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-07-14 22:52:52
- * @LastEditTime: 2022-07-17 00:04:54
+ * @LastEditTime: 2022-08-05 18:03:49
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/RegistrController.php
+ * @FilePath: /exuiApi/app/Http/Controllers/RegistrController.php
  */
 
 namespace App\Http\Controllers;

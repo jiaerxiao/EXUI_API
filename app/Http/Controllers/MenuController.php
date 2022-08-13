@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-07-24 20:29:16
- * @LastEditTime: 2022-08-02 17:33:40
+ * @LastEditTime: 2022-08-08 23:38:43
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/MenuController.php
+ * @FilePath: /exuiApi/app/Http/Controllers/MenuController.php
  */
 
 namespace App\Http\Controllers;
@@ -53,5 +53,11 @@ class MenuController extends Controller
     {
         $menu = Menu::query()->where('pid', 0)->with(['children'])->get();
         return $this->success(data: $menu);
+    }
+
+    public function myMenu()
+    {
+        $menu = Menu::all();
+        return $this->success(data: new MenuResource($menu));
     }
 }

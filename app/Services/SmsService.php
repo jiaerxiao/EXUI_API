@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 01:41:00
  * @LastEditTime: 2022-07-17 01:58:34
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Services/SmsService.php
+ * @FilePath: /exuiApi/app/Services/SmsService.php
  */
 
 namespace App\Services;

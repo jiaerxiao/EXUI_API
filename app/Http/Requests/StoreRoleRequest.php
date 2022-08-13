@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 22:22:37
  * @LastEditTime: 2022-07-20 21:14:09
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Requests/StoreRoleRequest.php
+ * @FilePath: /exuiApi/app/Http/Requests/StoreRoleRequest.php
  */
 
 namespace App\Http\Requests;

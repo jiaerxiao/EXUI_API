@@ -4,7 +4,7 @@
  * @Date: 2022-06-28 22:36:21
  * @LastEditTime: 2022-07-17 02:12:06
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Providers/AppServiceProvider.php
+ * @FilePath: /exuiApi/app/Providers/AppServiceProvider.php
  */
 
 namespace App\Providers;

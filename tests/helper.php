@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 01:55:36
  * @LastEditTime: 2022-07-17 01:56:29
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/tests/helper.php
+ * @FilePath: /exuiApi/tests/helper.php
  */
 
 function create($class, $attributes = [], $num = null)

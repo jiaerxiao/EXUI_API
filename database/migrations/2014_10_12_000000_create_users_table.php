@@ -4,7 +4,7 @@
  * @Date: 2022-06-28 22:36:21
  * @LastEditTime: 2022-07-18 23:04:06
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/database/migrations/2014_10_12_000000_create_users_table.php
+ * @FilePath: /exuiApi/database/migrations/2014_10_12_000000_create_users_table.php
  */
 
 use Illuminate\Database\Migrations\Migration;

@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 23:52:37
  * @LastEditTime: 2022-07-20 21:12:58
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/LogoutController.php
+ * @FilePath: /exuiApi/app/Http/Controllers/LogoutController.php
  */
 
 namespace App\Http\Controllers;

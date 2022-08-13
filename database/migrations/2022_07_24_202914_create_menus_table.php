@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-07-24 20:29:14
- * @LastEditTime: 2022-07-24 20:54:42
+ * @LastEditTime: 2022-08-06 00:01:42
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/database/migrations/2022_07_24_202914_create_menus_table.php
+ * @FilePath: /exuiApi/database/migrations/2022_07_24_202914_create_menus_table.php
  */
 
 use Illuminate\Database\Migrations\Migration;
@@ -25,8 +25,8 @@ return new class extends Migration
             $table->bigInteger('pid')->default(0)->comment('上级菜单');
             $table->string('name', 50)->uniqid()->comment('别名');
             $table->string('path', 50)->uniqid()->comment('路由地址');
-            $table->string('redirect', 50)->comment('重定向');
-            $table->string('component', 50)->comment('视图');
+            $table->string('redirect', 50)->default('')->comment('重定向');
+            $table->string('component', 50)->default('')->comment('视图');
             $table->json('meta')->nullable()->comment('路由元信息');
             $table->timestamps();
         });

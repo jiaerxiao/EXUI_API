@@ -4,7 +4,7 @@
  * @Date: 2022-06-28 22:36:21
  * @LastEditTime: 2022-07-23 23:58:15
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Kernel.php
+ * @FilePath: /exuiApi/app/Http/Kernel.php
  */
 
 namespace App\Http;

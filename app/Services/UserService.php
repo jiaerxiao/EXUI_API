@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 01:50:12
  * @LastEditTime: 2022-07-17 01:50:20
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Services/UserService.php
+ * @FilePath: /exuiApi/app/Services/UserService.php
  */
 
 namespace App\Services;

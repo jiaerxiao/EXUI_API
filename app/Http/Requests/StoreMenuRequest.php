@@ -4,7 +4,7 @@
  * @Date: 2022-07-24 20:29:16
  * @LastEditTime: 2022-07-24 21:20:00
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Requests/StoreMenuRequest.php
+ * @FilePath: /exuiApi/app/Http/Requests/StoreMenuRequest.php
  */
 
 namespace App\Http\Requests;

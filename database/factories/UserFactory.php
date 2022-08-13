@@ -4,7 +4,7 @@
  * @Date: 2022-06-28 22:36:21
  * @LastEditTime: 2022-07-16 17:36:32
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/database/factories/UserFactory.php
+ * @FilePath: /exuiApi/database/factories/UserFactory.php
  */
 
 namespace Database\Factories;

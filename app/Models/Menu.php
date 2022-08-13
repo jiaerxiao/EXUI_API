@@ -4,7 +4,7 @@
  * @Date: 2022-07-24 20:29:14
  * @LastEditTime: 2022-07-24 22:09:14
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Models/Menu.php
+ * @FilePath: /exuiApi/app/Models/Menu.php
  */
 
 namespace App\Models;

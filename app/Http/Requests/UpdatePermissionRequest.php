@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 21:26:47
  * @LastEditTime: 2022-07-17 23:31:17
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Requests/UpdatePermissionRequest.php
+ * @FilePath: /exuiApi/app/Http/Requests/UpdatePermissionRequest.php
  */
 
 namespace App\Http\Requests;

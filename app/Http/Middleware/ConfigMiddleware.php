@@ -4,7 +4,7 @@
  * @Date: 2022-07-20 20:33:56
  * @LastEditTime: 2022-07-24 20:26:44
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Middleware/ConfigMiddleware.php
+ * @FilePath: /exuiApi/app/Http/Middleware/ConfigMiddleware.php
  */
 
 namespace App\Http\Middleware;

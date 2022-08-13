@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 12:22:12
  * @LastEditTime: 2022-07-17 12:34:10
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/database/migrations/2022_07_17_122212_create_configs_table.php
+ * @FilePath: /exuiApi/database/migrations/2022_07_17_122212_create_configs_table.php
  */
 
 use Illuminate\Database\Migrations\Migration;

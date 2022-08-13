@@ -4,7 +4,7 @@
  * @Date: 2022-07-14 22:45:45
  * @LastEditTime: 2022-07-17 01:09:47
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/tests/Feature/Account/RegisterTest.php
+ * @FilePath: /exuiApi/tests/Feature/Account/RegisterTest.php
  */
 
 namespace Tests\Feature\Account;

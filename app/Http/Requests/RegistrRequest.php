@@ -4,7 +4,7 @@
  * @Date: 2022-07-16 23:51:30
  * @LastEditTime: 2022-07-17 22:18:44
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Requests/RegistrRequest.php
+ * @FilePath: /exuiApi/app/Http/Requests/RegistrRequest.php
  */
 
 namespace App\Http\Requests;

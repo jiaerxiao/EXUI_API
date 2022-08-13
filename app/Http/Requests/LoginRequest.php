@@ -4,7 +4,7 @@
  * @Date: 2022-07-16 17:58:13
  * @LastEditTime: 2022-07-23 15:23:17
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Requests/LoginRequest.php
+ * @FilePath: /exuiApi/app/Http/Requests/LoginRequest.php
  */
 
 namespace App\Http\Requests;

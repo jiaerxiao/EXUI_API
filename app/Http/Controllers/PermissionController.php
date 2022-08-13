@@ -4,7 +4,7 @@
  * @Date: 2022-07-17 21:26:47
  * @LastEditTime: 2022-07-23 13:43:31
  * @LastEditors: 贾二小
- * @FilePath: /laravel-api/app/Http/Controllers/PermissionController.php
+ * @FilePath: /exuiApi/app/Http/Controllers/PermissionController.php
  */
 
 namespace App\Http\Controllers;
