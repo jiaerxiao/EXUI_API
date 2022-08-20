@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-08-05 17:18:10
- * @LastEditTime: 2022-08-10 00:03:38
+ * @LastEditTime: 2022-08-20 13:49:36
  * @LastEditors: 贾二小
- * @FilePath: /exuiApi/app/Http/Controllers/UserController.php
+ * @FilePath: /EXUI_API/app/Http/Controllers/UserController.php
  */
 
 namespace App\Http\Controllers;
@@ -52,6 +52,6 @@ class UserController extends Controller
 
     public function currentUserInfo()
     {
-        return $this->success(data: new UserResource(Auth::user()->refresh()->load('roles.permissions')));
+        return $this->success(data: new UserResource(Auth::user()));
     }
 }

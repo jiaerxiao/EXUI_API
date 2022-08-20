@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-07-14 23:13:40
- * @LastEditTime: 2022-07-14 23:17:22
+ * @LastEditTime: 2022-08-19 19:29:31
  * @LastEditors: 贾二小
- * @FilePath: /exuiApi/database/seeders/UserSeeder.php
+ * @FilePath: /EXUI_API/database/seeders/UserSeeder.php
  */
 
 namespace Database\Seeders;

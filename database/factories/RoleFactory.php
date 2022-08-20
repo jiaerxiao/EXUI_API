@@ -1,4 +1,11 @@
 <?php
+/*
+ * @Author: 贾二小
+ * @Date: 2022-08-19 16:39:12
+ * @LastEditTime: 2022-08-19 19:20:45
+ * @LastEditors: 贾二小
+ * @FilePath: /EXUI_API/database/factories/RoleFactory.php
+ */
 
 namespace Database\Factories;
 
@@ -17,7 +24,9 @@ class RoleFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => fake()->name(),
+            'title' => fake()->sentence(),
+            'guard_name' => fake()->userName()
         ];
     }
 }

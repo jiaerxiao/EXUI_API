@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-06-28 22:36:21
- * @LastEditTime: 2022-07-16 17:36:32
+ * @LastEditTime: 2022-08-19 19:14:26
  * @LastEditors: 贾二小
- * @FilePath: /exuiApi/database/factories/UserFactory.php
+ * @FilePath: /EXUI_API/database/factories/UserFactory.php
  */
 
 namespace Database\Factories;
@@ -27,6 +27,10 @@ class UserFactory extends Factory
     {
         return [
             'name' => fake()->name(),
+            'number' => fake()->numberBetween(1, 1000),
+            'sex' => fake()->numberBetween(0, 1),
+            'real_name' => fake()->titleFemale(),
+            'mobile' => fake()->phoneNumber(),
             'email' => fake()->safeEmail(),
             'email_verified_at' => now(),
             'password' => Hash::make('123456'),

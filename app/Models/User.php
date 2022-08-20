@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-06-28 22:36:21
- * @LastEditTime: 2022-08-10 00:01:43
+ * @LastEditTime: 2022-08-20 13:45:04
  * @LastEditors: 贾二小
- * @FilePath: /exuiApi/app/Models/User.php
+ * @FilePath: /EXUI_API/app/Models/User.php
  */
 
 namespace App\Models;
@@ -19,6 +19,7 @@ use Spatie\Permission\Traits\HasRoles;
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable, HasRoles, ScopeTrait;
+    protected $with = ['roles'];
 
     protected $guard_name = ['sanctum'];
     /**

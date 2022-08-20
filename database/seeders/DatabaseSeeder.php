@@ -2,9 +2,9 @@
 /*
  * @Author: 贾二小
  * @Date: 2022-06-28 22:36:21
- * @LastEditTime: 2022-08-05 23:57:45
+ * @LastEditTime: 2022-08-19 19:30:59
  * @LastEditors: 贾二小
- * @FilePath: /exuiApi/database/seeders/DatabaseSeeder.php
+ * @FilePath: /EXUI_API/database/seeders/DatabaseSeeder.php
  */
 
 namespace Database\Seeders;
@@ -24,7 +24,10 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             UserSeeder::class,
-            MenuSeeder::class
+            MenuSeeder::class,
+            ConfigSeeder::class,
+            RoleSeeder::class,
+            PermissionSeeder::class,
         ]);
     }
 }
